@@ -1,0 +1,18 @@
+<meta>
+	<info name="Controls" author="Sc00By" type="script" description="Shared control/zoom/font helper for Sc00By's slot machine scripts." />
+
+	    <download_priority_group>99999</download_priority_group>
+	
+	<script type="server" src="sourceS.lua" />
+	<script type="client" src="sourceC.lua" cache="false"/>
+<file src="data/Font-Light.ttf"/>
+<file src="data/Font-Bold.ttf"/>
+<file src="data/Font-Regular.ttf"/>
+	
+	<export type="shared" function="toggleControl" />
+<export function="getZoom" type="client"/>
+<export function="setZoom" type="client"/>
+<export function="getFont" type="client"/>
+
+	<min_mta_version server="1.5.7" client="1.5.7" />
+</meta>
